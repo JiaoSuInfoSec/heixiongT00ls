@@ -5,6 +5,8 @@ searchall
 zombie
 gogo
 建议直接[Ctrl+F]查找
+![image](https://github.com/user-attachments/assets/3988c3e7-42d9-41c4-aa01-d2cc76360bf4)
+
 
 ## fscan
 常用命令
