@@ -1,6 +1,9 @@
 # heixiongT00ls
 收集渗透中会用到的常用工具，快速下载 。
-
+fscan
+searchall
+zombie
+gogo
 建议直接[Ctrl+F]查找
 
 ## fscan
