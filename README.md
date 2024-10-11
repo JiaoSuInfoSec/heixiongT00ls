@@ -1,4 +1,7 @@
 # heixiongT00ls
+收集渗透中会用到的常用工具，快速下载 。
+
+建议直接[Ctrl+F]查找
 
 ## fscan
 Linux amd
